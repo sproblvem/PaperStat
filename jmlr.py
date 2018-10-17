@@ -85,13 +85,10 @@ for paper_url in paper_urls:
                 author_start = True
             if text.get_text() == topic_start_tag:
                 topic_start = True
-    print(paper_author_list)
-    print(paper_tag_list)
-    print(author_institute)
-    print(institute_country)
     html.close()
     time.sleep(random.random())
     sys.stdout.flush()
 
-import json
-json.dump([paper_author_list, paper_tag_list, author_institute, institute_country], open('jmlr-2018.json', 'w'))
+    import json
+    with open('jmlr-2016.json', 'w') as file_object:
+        json.dump([paper_author_list, paper_tag_list, author_institute, institute_country], file_object)
