@@ -65,6 +65,7 @@ for paperUrl in paperList:
         institute = tag.h4.text
         author_institute[author] = institute
     time.sleep(random.random())
+    print(paperName)
 
 with open('icml_' + year + '.json', 'w') as file_object:
     json.dump([paper_author_list, paper_session_list, author_institute], file_object)
