@@ -10,8 +10,8 @@ headers = {'User-Agent':'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0) Gecko/2010
 
 import re
 
-# req = request.Request(url='https://dl.acm.org/citation.cfm?id=2946645&picked=prox&preflayout=flat', headers=headers)
-req = request.Request(url='https://dl.acm.org/citation.cfm?id=3122009&picked=prox&preflayout=flat', headers=headers)
+req = request.Request(url='https://dl.acm.org/citation.cfm?id=2946645&picked=prox&preflayout=flat', headers=headers)
+# req = request.Request(url='https://dl.acm.org/citation.cfm?id=3122009&picked=prox&preflayout=flat', headers=headers)
 html = request.urlopen(req)
 bs_obj = BeautifulSoup(html.read(), 'html.parser')
 text_list = bs_obj.find_all("a")

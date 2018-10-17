@@ -59,6 +59,8 @@ class MyHTMLParser(HTMLParser):
                 author_depth = depth
                 get_author = True
                 author = ""
+        if tag == "i" and get_author:
+            author += ";"
         depth += 1
 
     def handle_endtag(self, tag):
@@ -75,6 +77,7 @@ class MyHTMLParser(HTMLParser):
 
 
 def main():
+    # https://icml.cc/Conferences/2016/index.html%3Fp=1839.html
     file = open("icml2016.html", "r")
     #file = open("test.html", "r")
     icml2016 = file.read()
