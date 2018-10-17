@@ -1,9 +1,11 @@
 from bs4 import BeautifulSoup
 import requests
 import json
+import random
+import time
 
-base_url = "https://icml.cc/Conferences/2017/Schedule"
-year = base_url.split("/")[-2]
+year = "2018"
+base_url = "https://icml.cc/Conferences/" + year + "/Schedule"
 req = requests.get(base_url)
 base_html = BeautifulSoup(req.text, 'html.parser')
 
@@ -59,6 +61,7 @@ for paperUrl in paperList:
         author = tag.h3.text
         institute = tag.h4.text
         author_institute[author] = institute
+    time.sleep(random.random())
 
 with open('icml_' + year + '.json', 'w') as file_object:
     json.dump([paper_author_list, paper_session_list, author_institute], file_object)
