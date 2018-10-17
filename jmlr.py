@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 import io
 import sys
 import random
+import time
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='utf-8')
 headers = {'User-Agent':'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0'}
 
@@ -21,6 +22,7 @@ root_path = 'https://dl.acm.org/'
 
 paper_urls = []
 for text in text_list:
+    print(text_list)
     try:
         if re.fullmatch(pattern_paper, text.get('href')) is not None:
             paper_urls.append(text.get('href'))
