@@ -76,7 +76,6 @@ def get_result(base_url, session):
             author_institute[author] = institute
         time.sleep(random.random())
         print(paperName)
-        break
 
 if year == "2018":
     for session in ["DL", "RL", "BY"]:
