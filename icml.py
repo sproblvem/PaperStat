@@ -52,7 +52,10 @@ for paperUrl in paperList:
     paper_author_list[paperName] = authors
     sessionName = info_div.find_all("div", attrs={"class": "pull-right maincardHeader maincardType"})[1].a.text
     sessionName = ' '.join(list(filter(isNone, sessionName.split(" "))))
-    paper_session_list[paperName] = sessionName
+    if paperName not in paper_session_list.keys():
+        paper_session_list[paperName] = []
+    if sessionName not in paper_session_list[paperName]:
+        paper_session_list[paperName].append(sessionName)
     paper_html.find_all(isAuthor)
     for authorUrl in speakerList:
         req = requests.get(authorUrl)
