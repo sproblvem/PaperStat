@@ -22,7 +22,7 @@ root_path = 'https://dl.acm.org/'
 
 paper_urls = []
 for text in text_list:
-    print(text_list)
+    #print(text_list)
     try:
         if re.fullmatch(pattern_paper, text.get('href')) is not None:
             paper_urls.append(text.get('href'))
@@ -90,5 +90,5 @@ for paper_url in paper_urls:
     sys.stdout.flush()
 
     import json
-    with open('jmlr-2016.json', 'w') as file_object:
+    with open('jmlr_2016.json', 'w') as file_object:
         json.dump([paper_author_list, paper_tag_list, author_institute, institute_country], file_object)
