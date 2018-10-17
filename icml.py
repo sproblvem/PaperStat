@@ -26,7 +26,7 @@ def isPaper(tag):
     if tag.has_attr("onclick"):
         if tag["onclick"].startswith("showDetail"):
             if config[year]["paperItem"] in tag.div["class"]:
-                paperList.append("https://icml.cc/Conferences/2018/Schedule?showEvent=" + tag["onclick"][11:-1])
+                paperList.append("https://icml.cc/Conferences/" + year + "/Schedule?showEvent=" + tag["onclick"][11:-1])
     return False
 base_html.find_all(isPaper)
 
@@ -34,7 +34,7 @@ speakerList = []
 def isAuthor(tag):
     if tag.has_attr("onclick"):
         if tag["onclick"].startswith("showSpeaker"):
-            speakerList.append("https://icml.cc/Conferences/2018/Schedule?showSpeaker=" + tag["onclick"][13:-3])
+            speakerList.append("https://icml.cc/Conferences/" + year + "/Schedule?showSpeaker=" + tag["onclick"][13:-3])
     return False
 
 def isNone(s):
