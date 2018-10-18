@@ -1,0 +1,194 @@
+University of Michigan
+Harvard Medical School
+Vicarious AI
+DeepMind
+UT Austin
+Amazon
+Duke University
+Google
+Princeton University
+U. Michigan
+Stanford University
+MIT
+THE GRADUATE CENTER, CUNY
+UIUC
+Cornell University
+Amazon
+Yahoo
+UPenn
+University of Central Florida
+Massachusetts Institute of Technology
+Rensselaer Polytechnic Institute
+North Carolina State University
+CMU
+UC Berkeley
+IBM Research
+Georgia Tech
+Carnegie Mellon University
+Lehigh University
+University of Massachusetts Amherst
+University of Southern California
+Uber
+Facebook
+IBM T.J Watson Research Center
+University of Pennsylvania
+Penn State University
+Stanford
+UMass Amherst
+UC San Diego
+Georgia Institute of Technology
+MICROSOFT
+Google Brain
+University of Washington
+Microsoft
+Simpson College
+University of Lorraine
+University of Illinois
+University of Illinios at Chicago
+Microsoft Research
+Purdue
+University of Rochester
+UCSD
+Facebook AI Research
+Columbia University
+New York University
+Disney Research
+Adobe Research
+NYU
+Google Inc.
+IBM Research, T. J. Watson Research Center
+University of Wisconsion-Madison
+Deakin University
+Washington University in St. Louis
+UCLA
+Indiana University Bloomington
+University of Wisconsin-Madison
+Yale
+Amazon.com
+Rutgers Univeristy
+Berkeley
+University of Texas at Austin
+Rugters University
+DeeplyCurious.ai
+Yale University
+Ohio State University
+Harvard University
+Google DeepMind
+University of California, San Diego
+Georgia State University
+University of Virginia
+Google Research
+University of California, Irvine
+University of California at Berkeley
+UT-Austin
+Yahoo Research
+FACEBOOK
+University of Maryland
+Adobe Research
+Johns Hopkins University
+University of Minnesota
+The University of Texas at Austin
+Victoria University Wellington
+University of Wisconsin - Madison
+California Institute of Technology
+Rutgers
+Technical University of Munich
+Boston University
+Amazon Research Cambridge
+Disney Research Pittsburgh
+UW Madison
+Microsoft Maluuba
+UCLA
+City College of New York, CUNY
+OpenAI
+Yahoo! Research
+IBM
+MIT Computer Science and Artificial Intelligence Laboratory
+Washington State University
+Deep Mind
+Johns Hopkins
+University of Texas, Austin
+City University of New York (CUNY)
+Citadel
+Northeastern University
+Rice University
+WaveOne, Inc.
+UCL
+Indiana University
+University of Arizona
+University of Geneva, HES
+Brown University
+YALE
+University of California, Davis
+UC Davis
+Google Brain
+Princeton University
+US Naval Academy
+Colgate University
+Paderborn University
+SYSU-CMU JIE
+University of Illinois at Chicago
+Uber
+Rutgers University
+University of Massachusetts
+Iowa State University
+USC
+University of Indiana University
+yahoo
+University of South Carolina
+DeepMind
+MIT / DeepMind
+Australian National University
+Victoria University of Wellington
+MIT CSAIL
+Gatsby Computational Neuroscience Unit
+University of Almeria
+Google Research
+Council for Scientific and Industrial Research (CSIR)
+Yahoo!
+University of Chicago
+Frostbite Labs and Victoria University
+OpenAI / UC Berkeley
+Microsoft Research Asia
+Princeton
+Harvard
+George
+Duke university
+Saarland University
+Caltech
+caltech.edu
+Google Brain
+Cornell University
+Duke
+University of California San Diego
+The Boeing Company
+UMass
+University of Massachusetts, Amherst
+Facebook AI Research
+Purdue University
+Univ Iowa
+Toyota Technological Institute at Chicago
+Google Zurich
+Univresity of Wisconsin Madiso
+University of Lincoln
+University of Illinois at Urbana-Champaign
+Stony Brook University
+University of Wisconsin
+National Institute of Informatics
+Boston
+University of Maryland at College Park
+Microsoft Research
+Princeton
+Northwestern University
+Google Deepmind
+STANFORD
+Carnegie Mellen University
+University of California Berkeley
+International Computer Science Institute
+The University of Iowa
+Microsoft Research & U. of Pennsylvania
+Google Brain, Google Inc.
+University of California at San Diego
+Google Research, NY
+The City University of New York
+Carnegie Mellon University / Amazon AWS
