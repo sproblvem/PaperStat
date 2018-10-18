@@ -10,8 +10,7 @@ headers = {'User-Agent':'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0) Gecko/2010
 
 import re
 
-req = request.Request(url='https://dl.acm.org/citation.cfm?id=2946645&picked=prox&preflayout=flat', headers=headers)
-# req = request.Request(url='https://dl.acm.org/citation.cfm?id=3122009&picked=prox&preflayout=flat', headers=headers)
+req = request.Request(url='https://dl.acm.org/citation.cfm?id=2627435&picked=prox&preflayout=flat', headers=headers)
 html = request.urlopen(req)
 bs_obj = BeautifulSoup(html.read(), 'html.parser')
 text_list = bs_obj.find_all("a")
@@ -90,5 +89,5 @@ for paper_url in paper_urls:
     sys.stdout.flush()
 
     import json
-    with open('jmlr_2016.json', 'w') as file_object:
+    with open('jmlr_2014.json', 'w') as file_object:
         json.dump([paper_author_list, paper_tag_list, author_institute, institute_country], file_object)
